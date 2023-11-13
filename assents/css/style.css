@@ -79,3 +79,35 @@ th{
 .tr{
     background-color: rgb(141, 215, 216);
 }
+
+/*  immagini piedipagina  */
+footer{
+     max-width: 800px; 
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+.monitor{
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+    background-image: url('../img/monitor.jpg');
+    background-position: center;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+}
+
+.graph{
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+    background-image: url('../img/graph.jpg');
+    background-position: center;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+    
+    
+}
