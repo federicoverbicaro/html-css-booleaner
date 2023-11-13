@@ -4,7 +4,9 @@
     box-sizing: border-box;
   
 }
-
+main , footer{
+    margin: 7px;
+}
 
 /* testata sfondo  */
 .sfondo{
@@ -15,15 +17,18 @@
 } 
 
 
-#logo{
+ #logo{
     height: 80px;
-    margin: 90px 0 0 390px
+    margin-top: 100px;
+    
 } 
 
 /* corpo */
 
 h1{
+    margin-top: 20px;
     font-size: 40px;
+    margin-right: 500px;
 }
 
 #booleaner{
@@ -33,15 +38,16 @@ span{
     color: aquamarine;
 }
 
-.testo{
-    max-width: 800px; 
-    margin: 20px auto;
-    text-align: left;
-}
 
 /* immagini sotto h1 */
-.immagini{
+figure .immagini{
     margin-top: 20px;
+    height: 555px;
+}
+
+img{
+    margin-top: 25px;
+    height:550px ;
 }
 /*  descrizioni immagini  */
 
@@ -70,26 +76,28 @@ span{
 }
 
 .td{
-width: 195px;
+width: 335px;
+height: 65px;
 }
 
 
 th{
     background-color: rgb(41, 166, 220);
     color: white;
+    text-align: left;
 }
 
 .tr{
+   
     background-color: rgb(141, 215, 216);
 }
 
 /*  immagini piedipagina  */
-footer{
-     max-width: 800px; 
-    margin: 20px auto;
-    text-align: left;
-}
 
+
+.piedi-pagina{
+    margin-top: 30px;
+}
 
 .monitor{
     width: 250px;
