@@ -48,7 +48,7 @@ h1{
 
 /* testo sotto la descrizione dell'immagini */
 
-#lorem{
+.paragraph{
     margin-top: 18px;
 }
 
@@ -56,4 +56,26 @@ h1{
 .list{
     margin-top: 40px;
     margin-left: 17px;
+}
+
+/* tabella  */
+
+.tabella{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.td{
+width: 195px;
+}
+
+
+th{
+    background-color: rgb(41, 166, 220);
+    color: white;
+}
+
+.tr{
+    background-color: rgb(141, 215, 216);
 }
