@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+/* testata sfondo  */
+.sfondo{
+    width: 100%;
+    height: 200px;
+    background-image: url('../img/pattern.png');
+    background-color: darkcyan;
+} 
+
+
+#logo{
+    height: 80px;
+    margin: 90px 0 0 390px
+} 
+
+/* corpo */
+
+h1{
+    font-size: 40px;
+}
+
+#booleaner{
+    font-size: 20px;
+}
+
+.testo{
+    max-width: 800px; 
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* immagini sotto h1 */
+.immagini{
+    margin-top: 20px;
+}
+/*  descrizioni immagini  */
+
+.description{
+    font-size: 12px;
+}
+
+/* testo sotto la descrizione dell'immagini */
+
+#lorem{
+    margin-top: 18px;
+}
+
+/* lista */
+.list{
+    margin-top: 40px;
+    margin-left: 17px;
+}
