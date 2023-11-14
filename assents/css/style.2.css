@@ -25,11 +25,11 @@ main , footer{
 
 /* corpo */
 
-h1{
+ h1 .titolo{
     margin-top: 20px;
     font-size: 40px;
     margin-right: 500px;
-}
+} 
 
 #booleaner{
     font-size: 20px;
